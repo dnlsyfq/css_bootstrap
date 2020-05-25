@@ -19,6 +19,7 @@ There are also some optional JavaScript libraries if we want to add some interac
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 ```
+
 ## Intro Grid 
 Bootstrap simplifies the layout of a website using a grid system.
 [Grid Documentation](https://getbootstrap.com/docs/4.1/layout/grid/)
@@ -44,9 +45,11 @@ To create a container, necessary for Bootstrap’s grid :
 ```
 <div class="container"></div>
 ```
+
 <div> from the example above becomes a Bootstrap container which has a width relative to a user’s screen size, becomes horizontally centered, and has a left and right margin.
     
 If we wanted the container to take up the entire width of the screen we can assign a class of "container-fluid"
+
 
 ```
 <div class="container-fluid"></div>
@@ -83,6 +86,7 @@ As we add more columns inside a row, the default behavior is for each column’s
 ```
 
 **Setting Column Widths**
+
 customization options so that we can make columns of varying widths.
 ```
 # row still has 4 columns worth of space
@@ -92,7 +96,8 @@ customization options so that we can make columns of varying widths.
 </div>
 ```
 
-If we decide to add an adjacent column,
+If we decide to add an adjacent column
+
 ```
 <div class="row">
   <div class="col-8">
@@ -105,6 +110,7 @@ If we decide to add an adjacent column,
 ```
 
 **Setting Column Width with Content**
+
 to use the content to set a column’s width, we append "auto" to the class of the column,
 
 ```
