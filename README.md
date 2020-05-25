@@ -134,5 +134,30 @@ Bootstrap categorizes screen sizes into 5 categories or as breakpoints: extra sm
 |Large	|≥ 992 px	|desktops|
 |Extra Large|	≥ 1200 px	|large desktop|
 
+**Breakpoint Naming Convention**
 
+We can even customize how our content on the grid changes based on breakpoints (extra small, small, medium, large, extra large)
 
+The naming convention follows a pattern of **"col-{breakpoint}-{width}"**
+
+> col-{breakpoint}-{width}
+
+* As seen before "col" refers to a column.
+* {breakpoint} can be sm, md, lg, or xl. Notice that there is no extra small or xs breakpoint. If we omit {breakpoint}, it is by default for extra small screens.
+* {width} can be set from 1 to 12 and assigns a width to the column.
+* When we set a {breakpoint}-{width}, it means that we want our column to have that set width for screens that fit in the specified breakpoint range and other larger screens.
+
+```
+<div class="col-sm-8"> 
+</div>
+```
+
+## Combining Bootstrap Classes
+add multiple classes to our columns for additional control over the rendering of our content
+
+From the example, we have a column that renders a different width based on a user’s screen size. On extra small and small sized screens, the column has a width of 12 individual columns. For medium and large sized screens, the column has a width of 8 individual columns. Lastly, for extra large screens, the column has a width of 6 individual columns.
+
+```
+<div class="col-12 col-md-8 col-xl-6">
+</div>
+```
