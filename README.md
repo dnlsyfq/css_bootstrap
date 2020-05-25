@@ -2,9 +2,11 @@
 Bootstrap uses classes to apply CSS rulesets — these rulesets dictate the layout and styling of the element.
 
 ## Incorporating bootstrap 
-There are also some optional JavaScript libraries if we want to add some interactivity to our website and these are inserted at the end of our <body> element
+There are also some optional JavaScript libraries if we want to add some interactivity to our website and these are inserted at the end of our $<body>$ element
 
-<script> elements at the bottom of the <body>
+
+$<script>$ elements at the bottom of the $<body>$
+
     
 [Bootstrap's Getting Started Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
     
@@ -88,6 +90,7 @@ As we add more columns inside a row, the default behavior is for each column’s
 **Setting Column Widths**
 
 customization options so that we can make columns of varying widths.
+
 ```
 # row still has 4 columns worth of space
 
